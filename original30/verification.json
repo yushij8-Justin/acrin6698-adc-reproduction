@@ -1,0 +1,27 @@
+{
+  "status": "verified_from_archived_dicom",
+  "cases": 30,
+  "series": 300,
+  "dicom_instances": 24586,
+  "paired_adc_estimates": 17,
+  "accepted_acquisitions": 34,
+  "table_2_values_verified": 10,
+  "figure_2_numeric_values_verified_after_removing_labels": 85,
+  "figure_2_max_abs_difference": 0.0,
+  "independent_solver_max_voxelwise_roi_adc_error_mm2_s": 8.565197162635485e-18,
+  "archived_dicom_verification_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pydicom": "3.0.1"
+  },
+  "clinical_outcome_files_opened": 0,
+  "visual_ratings_reproduced": false,
+  "recipe_sha256": {
+    "adc_core.py": "b8badcf97caa0d9e9a39229b6dfa6d5f8f6352d2838fa29ca8b3a40348754202",
+    "reference_b.py": "2d7eb2de99aa8fd63793adb33e0ab0bcab593a37f153f9c18fdc78536da5111b",
+    "statistics_core.py": "84fbc65afd9464a862b93a752407c3acc6cdd674a49ae48354a1d46c1666a873",
+    "roster.json": "48cd85336090fe32314caf4a43c23d3298146de69d86a8b32d26416e355bfd5f",
+    "expected_summary.json": "3f63b6f18280d07213022645402843a288f4aef9a20e7dd8b80561eb9e1fe391",
+    "run.py": "3849e4847d0282d7a81c907295d7e57fce5c8ac127ff25e51186900e52bc03bf"
+  }
+}

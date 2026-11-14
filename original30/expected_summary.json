@@ -1,0 +1,92 @@
+{
+  "dispositions": {
+    "attempted_pairs": 30,
+    "attempted_acquisitions": 60,
+    "complete_pairs": 17,
+    "pass_acquisitions": 34,
+    "hold_reasons": {
+      "TRACE_ALTERNATIVE_MAPPING_REQUIRES_REVIEW": 8,
+      "UNRESOLVED_IMAGE_SOURCE": 18
+    },
+    "holds_with_unresolved_mr_references": 18,
+    "mask_seg_support_matches": 60,
+    "primary_inference": "n_below_24",
+    "table_1": {
+      "GE": {
+        "attempted_pairs": 17,
+        "complete_pairs": 17,
+        "held_pairs": 0,
+        "pass_acquisitions": 34,
+        "held_acquisitions": 0
+      },
+      "Philips": {
+        "attempted_pairs": 7,
+        "complete_pairs": 0,
+        "held_pairs": 7,
+        "pass_acquisitions": 0,
+        "held_acquisitions": 14
+      },
+      "Siemens": {
+        "attempted_pairs": 6,
+        "complete_pairs": 0,
+        "held_pairs": 6,
+        "pass_acquisitions": 0,
+        "held_acquisitions": 12
+      }
+    },
+    "checksum_verified_series": 300,
+    "checksum_verified_instances": 24586,
+    "holds_with_unresolved_mr_and_mpps_references": 6,
+    "holds_with_unresolved_mr_and_ignored_detached_study_references": 12
+  },
+  "table_2": {
+    "patient_weighted_mean_difference": 0.028925422597012106,
+    "first_mean_difference": 0.027470791641828553,
+    "repeat_mean_difference": 0.03038005355219566,
+    "mean_change_repeat_minus_first": 0.00290926191036711,
+    "patient_absolute_difference_mean": 0.028925422597012106,
+    "patient_absolute_difference_median": 0.025820491395602344,
+    "public_wcv_percent": 4.303557562510191,
+    "reference_wcv_percent": 4.10358029398737,
+    "public_minus_reference_wcv_percentage_points": 0.19997726852282138,
+    "zero_support_mismatch": 9
+  },
+  "additional_descriptive_results": {
+    "public_zero_fraction": {
+      "mean": 0.0038981301000141225,
+      "median": 0.0,
+      "maximum": 0.05197505197505198
+    },
+    "reference_zero_fraction": {
+      "mean": 0.003999992126412679,
+      "median": 0.0,
+      "maximum": 0.05405405405405406
+    },
+    "common_positive_difference": 0.029010788718055742,
+    "public_logratio_mean": 0.02412419493866177,
+    "public_logratio_descriptive_limits": [
+      -0.09510915763855074,
+      0.1433575475158743
+    ],
+    "reference_logratio_mean": 0.022191657565244275,
+    "reference_logratio_descriptive_limits": [
+      -0.09150594357796127,
+      0.1358892587084498
+    ],
+    "threshold_applicable_acquisitions": 0
+  },
+  "archived_visual_review": {
+    "scope": "Original manuscript Table 3 and visual branch of Figure 1. Collaborator-reported physician confirmation of the archived categories. The computational run does not repeat visual interpretation.",
+    "table_3": {
+      "PASS": {
+        "roi_suitable": 26,
+        "roi_indeterminate": 8
+      },
+      "HOLD": {
+        "roi_suitable": 24,
+        "roi_indeterminate": 2
+      }
+    }
+  },
+  "archived_evaluable_site_count": 3
+}

@@ -1,0 +1,19 @@
+metric	count_or_value	unit	interpretation
+attempted_pairs	18	pairs	Fixed ACRIN-6698 same-archive hold-out denominator
+attempted_acquisitions	36	acquisitions	Two baseline scans per participant
+checksum_verified_series	170	series	Out of 180 requested
+transport_attempt_limit	10	series	Three attempts reached; no further retrieval attempt
+checksum_verified_DICOM_files	14245	files	Across the 170 verified series
+complete_transport_acquisitions	29	acquisitions	Five required series available
+complete_transport_pairs	12	pairs	Ten required series available
+strict_A_pass_acquisitions	14	acquisitions	Includes two unpaired acquisitions
+strict_A_pass_pairs	6	pairs	All GE; two strict passes per pair
+strict_A_transport_holds	7	acquisitions	Required series missing after transfer attempts
+strict_A_unresolved_image_references	15	acquisitions	Among the 29 with complete transport
+strict_A_RWVM_overlap	1	acquisition	Overlap with unresolved image references, not an additional hold
+strict_A_patient_weighted_mean_released_minus_recalculated	0.023468	10^-3 mm2/s	Six strict A pairs; descriptive
+strict_A_released_ADC_wCV	5.140	%	Same six pairs; descriptive
+strict_A_recalculated_ADC_wCV	4.899	%	Same six pairs; descriptive
+B_newly_recovered_pairs		pairs	Not adjudicated; zero recovery cannot be inferred
+B_C_mapped_vs_stored_absolute_difference		10^-3 mm2/s	Not estimable; no verified mapped complete pair
+B_C_prespecified_engineering_margin	0.05	10^-3 mm2/s	Applies to mapped vs stored signal only

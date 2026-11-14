@@ -1,0 +1,18 @@
+{
+  "frozen_code_sha256": {
+    "adc_core.py": "b8badcf97caa0d9e9a39229b6dfa6d5f8f6352d2838fa29ca8b3a40348754202",
+    "reference_b.py": "2d7eb2de99aa8fd63793adb33e0ab0bcab593a37f153f9c18fdc78536da5111b",
+    "rwvm.py": "a0d523f9dae17f5f7ed2966e3c23b8aee7fbeed0b09b74fa73986c19d137648d",
+    "source_refs.py": "1eb9653bc9b51ecc988fff22c400d4773e455ef37c31fe595a8af80b8b323798"
+  },
+  "archive_digest_algorithm": "MD5 of concatenated lexically sorted file-level MD5 hex strings, no delimiters",
+  "series_uid_set_sha256": "d0acbc7523ed457389f81e5a08f3958295690b48019529080623b41abb46531c",
+  "pair_roles_sha256": "e7090ee30bdb7702f88a87dc8757af4f49fb94b9081e92d8439558766a5e2435",
+  "published_strict_results_sha256": "13fdb2e28e99e3857fabed6912be8b02aa04f4c9762e6d93b75e5fc92d49bcc1",
+  "historic_protocol_receipt_sha256": "24159e869d3b1475bd5644d586d95774e0576b72ea391fa6e2e87f6170dfc9b3",
+  "historic_final_analysis_release_sha256": "da22a27d9c218e0e89304b0a14af29f36dbb1074941ab999280274b9be7a8a26",
+  "historic_transport_audit_sha256": "075e9e3447f91f171d6a3e73c3e6c6d5f8748c48d4d75a32a522613168bdbd83",
+  "historic_NBIA_IDC_equivalence_sha256": "e4be1ca0f2e6694ea2d7e1ee9c3d2425e27d845fc9b0f6345504babc41ae9a6e",
+  "history_origin": "ACRIN-6698 via TCIA NBIA and file-checksum-equivalent NCI IDC v25",
+  "description": "The replay derives strict-path outputs from verified available DICOM. Cohort series that reached their historical transfer limit remain excluded."
+}
